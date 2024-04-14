@@ -33,10 +33,14 @@ nav > ul {
 
 h1, h2 {
 	font-family: "Verdana", sans-serif;
+	margin-top: 60px;
 }
 
 h2 {
 	border-bottom: 4px solid #dfdfe2;
+	margin-top: 60px;
+	padding-top: 60px;
+	margin-top: 0;
 }
 
 .sr-only {
@@ -87,4 +91,8 @@ section {
   width: 80%;
   max-width: 600px;
   margin: 0 auto 10px auto;
+}
+
+.info {
+	padding: 5px 0 0 5px;
 }

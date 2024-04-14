@@ -105,3 +105,8 @@ section {
 input {
 	font-size: 14px;
 }
+
+.info input {
+  width: 50%;
+  text-align: left;
+}

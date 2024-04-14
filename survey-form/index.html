@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>FreeCodeCamp Survey</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<header>
+			<h1 id="title">Survey Form</h1>
+			<p id="description">This is a demonstration form.</p>
+		</header>
+
+		<main>
+			<form id="survey-form">
+				<label for="name" id="name-label">
+					Name: <input type="text" id="name" placeholder="Enter your name" required>
+				</label>
+
+				<label for="email" id="email-label">
+					E-mail: <input type="email" id="email" placeholder="Enter your e-mail address" required>
+				</label>
+
+				<label for="number" id="number-label"> Age (optional): </label>
+				<input id="number" type="number" min="13" max="120" placeholder="Age" required>
+
+				<label for="dropdown" id="label-select"> Select a fruit. </label>
+				<select id="dropdown" placeholder="Select a fruit">
+					<option>Apple</option>
+					<option>Banana</option>
+					<option>Grape</option>
+				</select>
+
+				<fieldset>
+					<legend>Do you like fruits?</legend>
+					<label for="like-yes">
+						<input type="radio" id=like-yes" value="like-yes" name="like-fruits">
+						yes
+					</label>
+
+					<label for="like-no">
+						<input type="radio" id="like-no" value="like-no" name="like-fruits">
+						No
+					</label>
+
+					<label for="like-notsure">
+						<input type="radio" id="like-notsure" value="like-notsure" name="like-fruits">
+						Not sure
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Which of these fruits do you like?</legend>
+					
+					<label for="apple">
+						<input type="checkbox" id="apple" value="apple">
+						Apple
+					</label>
+
+					<label for="banana">
+						<input type="checkbox" id="banana" value="banana">
+						Banana
+					</label>
+
+					<label for="grape">
+						<input type="checkbox" id="grape" value="grape">
+						Grape
+					</label>
+				</fieldset>
+
+				<label for="comment">
+					Do you  have a commentary?
+					<textarea id="comment" placeholder="Enter you commentary."></textarea>
+				</label>
+
+				<button id="submit" type="submit">Submit</button>
+			</form>
+		</main>
+	</body>
+</html>

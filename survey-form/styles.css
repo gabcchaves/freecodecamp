@@ -1,0 +1,80 @@
+:root {
+	--soft-blue: #B0E0E6;
+	--peach: #FFDAB9;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--soft-blue);
+}
+
+header {
+	text-align: center;
+	padding: 2% 0;
+	color: maroon;
+}
+
+header h1, header p {
+	margin: 0;
+}
+
+main {
+	margin: 0 0 10vh 0;
+}
+
+form {
+	width: 30%;
+	background-color: var(--peach);
+	padding: 2%;
+	border-radius: 5px;
+	box-shadow: 0 0 5px gray;
+	margin: 0 auto 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+input[type=text], input[type=email], input[type=number], select {
+	display: block;
+	width: 100%;
+	height: 40px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 1% 0;
+	padding: 0 2%;
+	box-sizing: border-box;
+}
+
+label {
+	margin: 2% 0;
+}
+
+textarea {
+	display: block;
+	width: 100%;
+	height: 10vh;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+fieldset {
+	border: none;
+	padding: 0;
+	margin: 2vh 0;
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	background-color: var(--soft-blue);
+	border: none;
+	width: 100%;
+	height: 5vh;
+	margin: 2vh 0;
+	box-sizing: border-box;
+}
+
+button:hover {
+	background-color: lightyellow;
+	cursor: pointer;
+}

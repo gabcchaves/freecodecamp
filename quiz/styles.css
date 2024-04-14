@@ -96,3 +96,12 @@ section {
 .info {
 	padding: 5px 0 0 5px;
 }
+
+.formrow {
+	margin-top: 5px;
+	padding: 0 5px 0 5px;
+}
+
+input {
+	font-size: 14px;
+}

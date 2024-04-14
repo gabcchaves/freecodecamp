@@ -55,4 +55,11 @@ nav li {
 
 li a {
 	color: #dfdfe2;
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: dfdfe2;
+	color: #1b1b32;
+	cursor: pointer;
 }

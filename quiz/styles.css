@@ -24,6 +24,11 @@ h1 {
 nav > ul {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-inline-start: 0;
+	margin-block: 0;
+	height: 100%;
 }
 
 h1, h2 {
@@ -66,4 +71,14 @@ nav li:hover {
 	background-color: dfdfe2;
 	color: #1b1b32;
 	cursor: pointer;
+}
+
+h1 {
+	color: #f1be32;
+	font-size: min(5vw, 1.2em);
+	text-align: center;
+}
+
+main {
+	padding-top: 25px;
 }
